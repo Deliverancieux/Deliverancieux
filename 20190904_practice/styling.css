@@ -1,0 +1,156 @@
+*, *:after, *:before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navigation_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 40px;
+}
+.navigation_item{
+    margin: 0 16px 0 24px;
+}
+.link{
+    text-decoration: none;
+    color: lightgray;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.link:hover{
+    color: #ce1b28;
+}
+.video{
+    max-width: 100%;
+}
+.banner_container{
+    overflow: hidden;
+    max-height: 640px;
+    position: relative;
+}
+.header_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+}
+.header_text{
+    color: white;
+    font-size: 6vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.intro_text{
+    color: dimgray;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.intro_container{
+    text-align: center;
+    margin: 25px;
+}
+.details_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.icon{
+    color: #ce1b28;
+    text-decoration: none;
+}
+.content_container{
+    padding: 16px 24px;
+    margin: 16px;
+    background-color: white;
+    width: 320px;
+    text-align: center;
+}
+.icon_text{
+    color: dimgray;
+    font-size: 25px;
+    margin-top: 8px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.newsletter{
+    position: relative;
+    height: 250px;
+    background-image: url(files/lost-places.jpg);
+    background-size: cover;
+}
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    background: black;
+    background-color: rgba (0, 0, 0, 0.7);
+    padding: 32px;
+    width: 70%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.form_headline{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 11px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.form_label{
+    font-size: 14px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.form_element{
+    padding: 5px 10px;
+    margin: 0 0 5px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.contact_container{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 325px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.contactus_container{
+    width: 320px;
+    font-size: 16px;
+}
+.contactus_text{
+    color: lightgrey;
+}
+.some_container{
+    width: 150px;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.some_list{
+    margin-top: 5px;
+    list-style-type: none;
+}
+.some_icon{
+    color: white;
+}
+.somelist_element{
+    margin: 0 0 10px 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}.banner_container:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient (135deg. #ce1b28 0%, #111111 50%);
+    content: ' ';
+    opacity: .6;
+}
